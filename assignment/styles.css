@@ -1,10 +1,12 @@
 * {
     margin:0;
-    
-}
+     box-sizing:border-box;
+ }
 body {
      background-image: linear-gradient(to right,rgb(25, 72, 92),rgb(9, 47, 63));
      cursor:default;
+     color:red;
+     height:auto;
 }
 header {
     width:100%;
@@ -59,11 +61,11 @@ div.info  {
     outline:6px solid black;
     height:100%;
     margin-bottom:50px;
+    
 
 
     }
 div.info h2 {
-    padding:20px;
     box-shadow:0px 0px 5px black;
     border:0px solid black;
      font-size: 30px;
@@ -77,14 +79,20 @@ div.info h2 {
 
  div.info img {
     width:100%;
-    height:50%;
-    box-shadow:0px 0px 5px black;
+    height:300px;
+     box-shadow:0px 0px 5px black;
     overflow:hidden;
     box-sizing:border-box;
-    padding:10px;
+    padding:7px;
     /*background-image: radial-gradient(red,red,yellow);*/
     background-color:black;
 
+ }
+ div.info img#pic1 {
+    display:inline-block;
+ }
+ div.info img#pic2 {
+    display:none;
  }
  div.info h3 {
     padding:15px;
@@ -95,6 +103,12 @@ div.info h2 {
 
  div.info h2, div.info h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ h3#YO {
+    display:block;
+ }
+ h3#YO2 {
+    display:none;
  }
 
  hr {
@@ -157,8 +171,8 @@ footer {
     width:100%;
     height:auto;
     background-color: black;
-    position: relative;
-    border-top:2px dashed white;
+     border-top:2px dashed white;
+      
 
    
 
@@ -188,7 +202,12 @@ button {
     font-size: 25px;
     cursor:pointer;
     font-family: cursive;
+    display:inline-block;
      
+ }
+
+ button#button11, button#button22, button#button33, button#button44 {
+    display:none;
  }
 
  button:hover, button:active {
@@ -199,6 +218,9 @@ button {
  button:active {
     color:red;
     outline:3px solid red;
-
-
  }
+  
+
+
+
+ 
