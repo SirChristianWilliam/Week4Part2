@@ -107,9 +107,12 @@ div.info h2 {
  }
  h3#YO {
     display:block;
+    background-color: black;
  }
  h3#YO2 {
     display:none;
+    background-color: black;
+
  }
 
  hr {
@@ -205,6 +208,7 @@ button {
     cursor:pointer;
     font-family: cursive;
     display:inline-block;
+    transform: translate(0px,0px);
      
  }
 

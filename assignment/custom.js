@@ -22,6 +22,7 @@ function myFunction2() {
 
 };
 function myFunction3() {
+
     document.getElementById("button3").style.display="none";
     document.getElementById("button33").style.display="inline-block";
     document.getElementsByTagName("h3")[0].style.fontFamily = "cursive";
@@ -29,6 +30,15 @@ function myFunction3() {
     document.getElementsByTagName("h1")[0].style.fontFamily = "cursive";
     document.getElementsByTagName("p")[0].style.fontFamily = "cursive";
     document.getElementById("YO2").style.fontFamily = "cursive";
+    document.getElementById("button3").style.transform = "translate(0px,-30px)";
+    document.getElementById("button33").style.transform = "translate(0px,-30px)";
+
+
+
+      
+    
+
+
 
 };
 function myFunction4() {
@@ -73,6 +83,11 @@ function myFunction33() {
     document.getElementsByTagName("h1")[0].style.fontFamily = "";
     document.getElementsByTagName("p")[0].style.fontFamily = "";
     document.getElementById("YO2").style.fontFamily = "";
+    document.getElementById("button3").style.transform = "translate(0px,0px)";
+    document.getElementById("button33").style.transform = "translate(0px,0px)";
+
+  
+
 
 };
 function myFunction44() {
