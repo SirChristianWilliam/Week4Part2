@@ -14,6 +14,12 @@ function myFunction2() {
     document.getElementById("button2").style.display="none";
     document.getElementById("button22").style.display="inline-block";
     document.getElementsByTagName("BODY")[0].style.backgroundImage = "linear-gradient(red,blue)";
+    document.getElementsByTagName("HEADER")[0].style.backgroundImage ="radial-gradient(blue,black,blue,black,blue,black)";
+    document.getElementsByTagName("h1")[0].style.boxShadow = "0px 0px 115px white inset";
+    document.getElementsByTagName("h1")[0].style.borderRadius = "50% 25%";
+
+    document.getElementsByTagName("p")[0].style.textShadow = "0px 0px 15px black";
+
 };
 function myFunction3() {
     document.getElementById("button3").style.display="none";
@@ -52,6 +58,11 @@ function myFunction22() {
     document.getElementById("button2").style.display="inline-block";
     document.getElementById("button22").style.display="none";
     document.getElementsByTagName("BODY")[0].style.backgroundImage = "";
+    document.getElementsByTagName("HEADER")[0].style.backgroundImage ="";
+    document.getElementsByTagName("h1")[0].style.boxShadow = "";
+    document.getElementsByTagName("p")[0].style.textShadow = "";
+    document.getElementsByTagName("h1")[0].style.borderRadius = "";
+
 
 };
 function myFunction33() {
